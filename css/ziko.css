@@ -33,7 +33,7 @@ body{
 }
 .header h1 a{
     color: #5d5964;
-    font-size: 30px;
+    font-size: 100px;
     font-weight: bold;
     position: fixed;
     top: 62px;
@@ -110,7 +110,7 @@ body{
 .menu-content ul li a {
     display: block;
     width: 100%;
-    font-size: 15px;
+    font-size: 100px;
     box-sizing: border-box;
     color:#ffffff;
     text-decoration: none;
@@ -139,7 +139,7 @@ body{
     transition: all 1s;/*アニメーション設定*/
 }
 #menu-btn-check:checked ~ .menu-content {
-    left: 75%/*メニューを画面内へ*/
+    left: 0%/*メニューを画面内へ*/
 }
 @media (max-width:743px) {
     body{

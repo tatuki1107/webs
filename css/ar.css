@@ -22,7 +22,7 @@ body{
 }
 .he h1 a{
   color: #5d5964;
-  font-size: 100px;
+  font-size:70px;
   font-weight: bold;
   position: fixed;
   top: 62px;
@@ -99,7 +99,7 @@ body{
 .menu-content ul li a {
   display: block;
   width: 100%;
-  font-size: 100px;
+  font-size: 20px;
   box-sizing: border-box;
   color:#ffffff;
   text-decoration: none;
@@ -129,116 +129,4 @@ body{
 }
 #menu-btn-check:checked ~ .menu-content {
   left: 0%;/*メニューを画面内へ*/
-}
-.header {
-  position:relative;
-  text-align:center;
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
-  color:white;
-}
-
-.logo {
-  width:50px;
-  fill:white;
-  padding-right:15px;
-  display:inline-block;
-  vertical-align: middle;
-}
-
-.inner-header {
-  height: 500px;
-  width:100%;
-  margin: 0;
-  padding: 0;
-}
-
-.flex { /*Flexbox for containers*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.waves {
-  position:relative;
-  width: 100%;
-  height:100vh;
-  margin-bottom:-7px; /*Fix for safari gap*/
-  min-height:100px;
-  max-height:200px;
-}
-
-.content {
-  position:relative;
-  height:200px;
-  text-align:center;
-  background-color: white;
-}
-
-/* Animation */
-
-.parallax > use {
-  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
-}
-.parallax > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
-}
-.parallax > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
-}
-.parallax > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
-}
-.parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
-}
-@keyframes move-forever {
-  0% {
-    transform: translate3d(-90px,0,0);
-  }
-  100% { 
-    transform: translate3d(85px,0,0);
-  }
-}
-/*Shrinking for mobile*/
-@media (max-width : 1174px ){
-  .waves {
-    height:40px;
-    min-height:40px;
-  }
-  .content {
-    height:30vh;
-  }
-  h1 {
-    font-size:50px;
-  }
-}
-
-.m_1{
-  padding: 50px 0;
-}
-.div1{	
-	display: flex;
-	justify-content: space-around;
-}
-.d_1{
-  display: flex;
-	background: #FFFFFF
-}
-.model{
-	transform: scale(1);
-  size: 10%;
-  width: 250px;
-}
-.m_1{
-  align-items: center;
-}
-.n_1{
-  display: flex;
-  align-items: center;
-  text-align:center;
 }
