@@ -4,9 +4,37 @@
     <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/dist/mindar-image.prod.js"></script>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/dist/mindar-image-aframe.prod.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css">
+    <link rel="stylesheet" href="css/ar.css">
 </head>
 <body>
-    <a-scene mindar-image="imageTargetSrc: mind/targets1.mind;" 
+	<header class="he">
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-btn-check">
+            <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            <!--ここからメニュー-->
+            <div class="menu-content">
+                <ul>
+                    <li>
+                        <a href="index.html">メインメニュー</a>
+                    </li>
+                    <li>
+                        <a href="heya.html">展示モデル紹介</a>
+                    </li>
+                    <li>
+                        <a href="zikosyoukai.html">制作メンバー紹介</a>
+                    </li>
+                    <li>
+                        <a href="texs.html">AR部屋</a>
+                    </li>
+                </ul>
+            </div>
+            <!--ここまでメニュー-->
+        </div>
+    </header>
+	<div class="header">
+
+    <a-scene mindar-image="imageTargetSrc: mind/targets2.mind;" 
             color-space="sRGB" 
             renderer="colorManagement: true, physicallyCorrectLights" 
             vr-mode-ui="enabled: false" 
